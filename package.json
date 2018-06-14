@@ -1,0 +1,45 @@
+{
+  "name": "kys",
+  "version": "1.0.0",
+  "description": "kys 基于 fis3 的 静态资源编译器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kys",
+    "fis3"
+  ],
+  "bin": {
+    "kys": "bin/kys.js"
+  },
+  "author": "rgy",
+  "license": "ISC",
+  "dependencies": {
+    "fis-optimizer-clean-css": "0.0.12",
+    "fis-optimizer-png-compressor": "^0.1.6",
+    "fis-optimizer-uglify-js": "^0.2.2",
+    "fis-parser-less": "^0.1.3",
+    "fis-postprocessor-autoprefixer": "0.0.5",
+    "fis-preprocessor-replacer": "^1.0.0",
+    "fis3": "^3.4.22",
+    "fis3-command-init": "^1.0.14",
+    "fis3-command-inspect": "^1.0.3",
+    "fis3-command-install": "^1.0.2",
+    "fis3-command-release": "^1.3.11",
+    "fis3-command-server": "0.0.9",
+    "fis3-deploy-local-deliver": "^1.0.0",
+    "fis3-hook-cmd": "^0.1.2",
+    "fis3-hook-components": "^1.0.4",
+    "fis3-hook-relative": "^1.0.9",
+    "fis3-packager-deps-pack": "^0.1.2",
+    "fis3-packager-map": "^1.1.3",
+    "liftoff": "^2.2.4",
+    "minimist": "^1.2.0",
+    "rake-parser-bdtmpl": "^1.1.0",
+    "rake-parser-less-common": "^1.1.4",
+    "rake-postpackager-seajs": "^1.1.2",
+    "rake-postprocessor-cmdwrap": "^1.1.1",
+    "uglify-js": "^2.7.0"
+  }
+}
